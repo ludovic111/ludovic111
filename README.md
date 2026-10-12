@@ -1,42 +1,43 @@
-# hi, i'm ludovic
+# Ludovic Marie
 
-**I build software by directing AI agents.** They write the code, I decide what it should be. Made in Geneva.
+Software developer in Geneva, Switzerland. I design products and build them with AI agents: I decide what the software should do and how it should feel, agents write the code, and every release goes through tests and CI before it ships.
 
-And since agents built it, it's only fair that *your* agents get to drive it.
+[lu4ovic.com](https://lu4ovic.com) · [lsuite.xyz](https://lsuite.xyz) · [X](https://x.com/lu4ovic) · [YouTube](https://youtube.com/@lu4ovic)
 
-## lsuite: the creative suite your AI can drive
+## Projects
 
-**[lsuite.xyz](https://lsuite.xyz)**: free and open source (MIT), five apps in beta.
+### lsuite: the creative suite your AI can drive
 
-Five desktop apps where every button is also a command. The window, a CLI, an MCP server and
-a built-in agent all go through the same command registry and share one undo history. Point
-Claude Code, Codex or any MCP client at it and it can edit your song, your cut or your slides. Hands still
-work too.
+[lsuite.xyz](https://lsuite.xyz) · free and open source (MIT) · Linux and macOS
 
-| app | what it does | where |
+Four native desktop apps written in Rust. Every action is a command, available from the window, a CLI, an MCP server and a built-in agent, with one shared undo history. Claude Code, Codex or any MCP client can edit your song, your video or your slides, and you can still do it all by hand.
+
+| App | What it does | Status |
 | --- | --- | --- |
-| **kimchi** · video | A video editor where image and video models are part of the cut. Generate a shot at the playhead, animate a frame, extend a clip, or bridge two shots, then edit the result like any other footage. Keyframes, 2D and 3D motion, Whisper captions. Native Rust, no webview. | [repo](https://github.com/ludovic111/kimchi) · [site](https://lsuite.xyz/kimchi) |
-| **ryolune** · music | The DAW your AI can drive. Rust engine, CLAP / VST3 / AU plugins, MCP. | [repo](https://github.com/ludovic111/ryolune) · [site](https://lsuite.xyz/ryolune) |
-| **zenith** · code | An app for coding with agents: Claude Code and Codex threads, approvals, diffs, worktrees, pull requests, and what it all costs. | [repo](https://github.com/ludovic111/zenith) · [site](https://lsuite.xyz/zenith) |
-| **nori** · images | Photo editing, vector illustration and page layout in one document. | [repo](https://github.com/ludovic111/nori) · [site](https://lsuite.xyz/nori) |
-| **folio** · office | Documents, spreadsheets and slides in one app. | [repo](https://github.com/ludovic111/folio) · [site](https://lsuite.xyz/folio) |
+| [**kimchi**](https://github.com/ludovic111/kimchi) | Video editor with image, video and sound models in the timeline | Beta · v0.12 |
+| [**ryolune**](https://github.com/ludovic111/ryolune) | Music production (DAW), with CLAP, VST3 and AU plugins | Beta · v0.17 |
+| [**nori**](https://github.com/ludovic111/nori) | Photo editing, vector illustration and page layout | Beta · v0.3 |
+| [**folio**](https://github.com/ludovic111/folio) | Documents, spreadsheets and presentations | Beta · v0.3 |
 
-The site and the shared design system live in [ludovic111/lsuite](https://github.com/ludovic111/lsuite).
+The website, the launcher and the shared design system live in [lsuite](https://github.com/ludovic111/lsuite).
 
-## also
+### Other projects
 
-- **[orion-aic](https://github.com/ludovic111/orion-aic)**: *l'aide à la conduite, tout relié.* An incident
-  journal, messages, situation map, resources and radio network for civil protection teams. Encrypted on
-  the device, no account, no database, works offline. Live at [orionaic.xyz](https://orionaic.xyz).
+| Project | What it is | Status |
+| --- | --- | --- |
+| [**DISPO**](https://dispoapp.net) | Mobile app for musicians: find someone available to step in for a gig or rehearsal, and run your bands (sessions, repertoires, setlists). SwiftUI and Kotlin, Supabase. | Released · v2.12 on the App Store (iPhone); Android coming |
+| [**horizon**](https://github.com/ludovic111/horizon) | Minecraft Java Edition rewritten in Rust, checked against the original with differential tests. | In development · 80% gameplay parity |
+| [**obsidian-360**](https://github.com/ludovic111/obsidian-360) | Xbox 360 hardware research, modern Linux on the console and reproducible diagnostic tools. | In development |
+| [**PokemonSunNative**](https://github.com/ludovic111/PokemonSunNative) | Static recompilation of Pokémon Sun to native x86-64 Linux, with Vulkan rendering. Bring your own copy of the game. | Experimental · playable to Route 1 |
 
-## what it's made of
+## Tools
 
-**Rust** · GPUI · wgpu · ffmpeg · candle · MCP<br/>
-**TypeScript** · React · Vite · Node<br/>
-Python and Java when that's what the problem calls for. Built with Claude Code and Codex.
+**Languages:** Rust, Swift, Kotlin, TypeScript, Python, C++
+**Desktop and graphics:** GPUI, wgpu, Vulkan, FFmpeg
+**Mobile and web:** SwiftUI, Jetpack Compose, React, Vite, Supabase
+**AI:** Claude Code, MCP, local and hosted image, video and audio models
+**Infrastructure:** NixOS, GitHub Actions on self-hosted Linux and macOS runners, signed and notarized macOS releases
 
----
+## Support
 
-[lu4ovic.com](https://lu4ovic.com) · [lsuite.xyz](https://lsuite.xyz) · [sponsor](https://github.com/sponsors/ludovic111) · [x](https://x.com/lu4ovic) · [youtube](https://youtube.com/@lu4ovic)
-
-*à plus.*
+If my open-source work is useful to you, you can [sponsor it on GitHub](https://github.com/sponsors/ludovic111).
