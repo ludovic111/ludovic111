@@ -2,33 +2,31 @@
 
 Software developer in Geneva, Switzerland. I design products and build them with AI agents: I decide what the software should do and how it should feel, agents write the code, and every release goes through tests and CI before it ships.
 
-[lu4ovic.com](https://lu4ovic.com) · [lsuite.xyz](https://lsuite.xyz) · [X](https://x.com/lu4ovic) · [YouTube](https://youtube.com/@lu4ovic)
+[lu4ovic.com](https://lu4ovic.com) · [X](https://x.com/lu4ovic) · [YouTube](https://youtube.com/@lu4ovic) · [Discord](https://discord.gg/HcTeMZxe5E)
 
-## Projects
+## Main project: Horizon
 
-### lsuite: the creative suite your AI can drive
+A Rust reimplementation of Minecraft: Java Edition 26.3, built for one-to-one parity and checked against the game itself: all 281 of its vanilla harnesses match, on Linux and macOS. The client is playable on Linux, macOS and Windows, and a launcher installs and updates it. You need your own copy of Minecraft; not affiliated with Mojang or Microsoft.
 
-[lsuite.xyz](https://lsuite.xyz) · free and open source (MIT) · Linux and macOS
+[Download the launcher](https://github.com/ludovic111/horizon/releases?q=launcher-v&expanded=true) · [GitHub](https://github.com/ludovic111/horizon) · [Discord](https://discord.gg/HcTeMZxe5E) · Website: URL coming soon
 
-Four native desktop apps written in Rust. Every action is a command, available from the window, a CLI, an MCP server and a built-in agent, with one shared undo history. Claude Code, Codex or any MCP client can edit your song, your video or your slides, and you can still do it all by hand.
+## With Raphaël Herrera: DISPO
 
-| App | What it does | Status |
+[DISPO](https://dispoapp.net) is a joint project with Raphaël Herrera, its co-creator, and separate from my solo work. A mobile app for musicians: find someone available to step in for a gig or rehearsal, and run your bands. On the App Store for iPhone, Android coming. In active development.
+
+## Side projects (paused)
+
+On hold while I work on Horizon. The code stays public.
+
+| Project | What it is | Where it stopped |
 | --- | --- | --- |
+| [**lsuite**](https://github.com/ludovic111/lsuite) | Free, open-source creative suite drivable by AI agents, written in Rust. Site: [lsuite.xyz](https://lsuite.xyz) | Beta · v0.3 launcher |
 | [**kimchi**](https://github.com/ludovic111/kimchi) | Video editor with image, video and sound models in the timeline | Beta · v0.12 |
 | [**ryolune**](https://github.com/ludovic111/ryolune) | Music production (DAW), with CLAP, VST3 and AU plugins | Beta · v0.17 |
 | [**nori**](https://github.com/ludovic111/nori) | Photo editing, vector illustration and page layout | Beta · v0.3 |
 | [**folio**](https://github.com/ludovic111/folio) | Documents, spreadsheets and presentations | Beta · v0.3 |
-
-The website, the launcher and the shared design system live in [lsuite](https://github.com/ludovic111/lsuite).
-
-### Other projects
-
-| Project | What it is | Status |
-| --- | --- | --- |
-| [**DISPO**](https://dispoapp.net) | Mobile app for musicians: find someone available to step in for a gig or rehearsal, and run your bands (sessions, repertoires, setlists). SwiftUI and Kotlin, Supabase. | Released · v2.12 on the App Store (iPhone); Android coming |
-| [**horizon**](https://github.com/ludovic111/horizon) | Minecraft Java Edition rewritten in Rust, checked against the original with differential tests. | In development · 80% gameplay parity |
-| [**obsidian-360**](https://github.com/ludovic111/obsidian-360) | Xbox 360 hardware research, modern Linux on the console and reproducible diagnostic tools. | In development |
-| [**PokemonSunNative**](https://github.com/ludovic111/PokemonSunNative) | Static recompilation of Pokémon Sun to native x86-64 Linux, with Vulkan rendering. Bring your own copy of the game. | Experimental · playable to Route 1 |
+| [**PokemonSunNative**](https://github.com/ludovic111/PokemonSunNative) | Pokémon Sun recompiled to native x86-64 Linux, with Vulkan. Bring your own copy of the game | Experimental · playable to Route 1 |
+| [**obsidian-360**](https://github.com/ludovic111/obsidian-360) | Xbox 360 hardware research and diagnostic tools | Experimental · last experiment October 2, 2026 |
 
 ## Tools
 
