@@ -14,20 +14,6 @@ A Rust reimplementation of Minecraft: Java Edition 26.3, built for one-to-one pa
 
 [DISPO](https://dispoapp.net) is a joint project with Raphaël Herrera, its co-creator, and separate from my solo work. A mobile app for musicians: find someone available to step in for a gig or rehearsal, and run your bands. On the App Store for iPhone, Android coming. In active development.
 
-## Side projects (paused)
-
-On hold while I work on Horizon. The code stays public.
-
-| Project | What it is | Where it stopped |
-| --- | --- | --- |
-| [**lsuite**](https://github.com/ludovic111/lsuite) | Free, open-source creative suite drivable by AI agents, written in Rust. Site: [lsuite.xyz](https://lsuite.xyz) | Beta · v0.3 launcher |
-| [**kimchi**](https://github.com/ludovic111/kimchi) | Video editor with image, video and sound models in the timeline | Beta · v0.12 |
-| [**ryolune**](https://github.com/ludovic111/ryolune) | Music production (DAW), with CLAP, VST3 and AU plugins | Beta · v0.17 |
-| [**nori**](https://github.com/ludovic111/nori) | Photo editing, vector illustration and page layout | Beta · v0.3 |
-| [**folio**](https://github.com/ludovic111/folio) | Documents, spreadsheets and presentations | Beta · v0.3 |
-| [**PokemonSunNative**](https://github.com/ludovic111/PokemonSunNative) | Pokémon Sun recompiled to native x86-64 Linux, with Vulkan. Bring your own copy of the game | Experimental · playable to Route 1 |
-| [**obsidian-360**](https://github.com/ludovic111/obsidian-360) | Xbox 360 hardware research and diagnostic tools | Experimental · last experiment October 2, 2026 |
-
 ## Tools
 
 **Languages:** Rust, Swift, Kotlin, TypeScript, Python, C++
